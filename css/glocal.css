@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {font-size: 62.5%;}
+
+:root {
+  /* primária */
+  --blue: hsl(233, 26%, 24%);
+  --green: hsl(136, 65%, 51%);
+  --cyan: hsl(192, 70%, 51%);
+
+  /* secondária */
+  --blue100: hsl(233, 8%, 62%);
+  --blue200: hsl(220, 16%, 96%);
+  --white100: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  height: 100vh;
+  background-color: var(--blue100);
+}
+
