@@ -1,6 +1,6 @@
 .banner {
   width: 100%;
-  background-color: var(--blue200);
+  background-color: var(--white100);
 }
 
 .banner__container {
@@ -24,12 +24,12 @@
 }
 
 .banner__title {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 100;
 }
 
 .banner__text {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--blue100);
   line-height: 3rem;
 }

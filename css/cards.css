@@ -1,0 +1,28 @@
+.cards {
+  width: 100%;
+  background-color: var(--blue200);
+}
+
+.cards__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.cards__header {
+  width: 100%;
+  max-width: 600px;
+}
+
+.cards__title {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.cards__text {
+  font-size: 2rem;
+  color: var(--blue100);
+  line-height: 3rem;
+}
