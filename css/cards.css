@@ -7,12 +7,13 @@
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  height: 400px;
+  padding-bottom: 5rem;
 }
 
 .cards__header {
   width: 100%;
   max-width: 600px;
+  padding-top: 6rem;
 }
 
 .cards__title {
@@ -25,4 +26,35 @@
   font-size: 2rem;
   color: var(--blue100);
   line-height: 3rem;
+}
+
+.cards__list {
+  margin-top: 5rem;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.cards__item {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.cards__item__image {
+  width: 100px;
+}
+
+.cards__item__title {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.cards__item__text {
+  font-size: 1.9rem;
+  line-height: 2.6rem;
+  color: var(--blue100);
+  text-align: start;
 }
