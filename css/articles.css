@@ -26,6 +26,7 @@
 .article__item {
   width: 100%;
   max-width: 300px;
+  margin-bottom: 5rem;
   display: flex;
   gap: 1rem;
   background-color: var(--white);
