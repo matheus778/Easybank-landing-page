@@ -4,7 +4,7 @@
 }
 
 .banner__container {
-  width: 100%;
+  width: 90%;
   height: 700px;
   max-width: 1200px;
   margin: 0 auto;
@@ -51,4 +51,40 @@
   top: 150px;
   left: 0;
   right: 0;
+}
+
+@media(max-width: 1024px){
+  .banner__container {
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .banner__content {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__title {
+    text-align: center;
+  }
+  
+  .banner__text {
+    text-align: center;
+  }
+
+  .banner__images {
+    display: none;
+  }
+  .banner__image-mockups {
+    width: 300px;
+    position: unset;
+    display: none;
+  }
+
+  .banner__image-bg {
+    display: none;
+  }
 }

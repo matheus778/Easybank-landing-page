@@ -7,10 +7,11 @@
   position: absolute;
 
   z-index: 99 ;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.377);
 }
 
 .navbar__container {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -66,4 +67,22 @@
 
 .button-invite:hover {
   opacity: 0.6;
+}
+
+.btn-menu {
+  display: none;
+}
+
+@media(max-width: 900px) {
+  .btn-menu{
+    display: initial;
+  }
+
+  .navbar__container .button-invite {
+    display: none;
+  }
+
+  .navbar__container ul {
+    display: none;
+  }
 }

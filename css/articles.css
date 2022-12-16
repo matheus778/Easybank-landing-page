@@ -4,7 +4,7 @@
 }
 
 .articles__container {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -69,4 +69,18 @@
   font-weight: 100;
   color: var(--blue100); 
   line-height: 2.5rem;
+}
+
+@media (max-width: 900px) {
+  .articles__container h2 {
+    text-align: center;
+  }
+  .articles__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article__item {
+  }
+  
 }

@@ -58,3 +58,20 @@
   color: var(--blue100);
   text-align: start;
 }
+
+@media (max-width: 900px) {
+  .cards__header {
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+  }
+
+  .cards__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards__item {
+    align-items: center;
+  }
+}
