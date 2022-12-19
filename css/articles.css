@@ -78,9 +78,5 @@
   .articles__items {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .article__item {
-  }
-  
+  }  
 }

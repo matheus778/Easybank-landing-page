@@ -56,9 +56,6 @@
 @media(max-width: 1024px){
   .banner__container {
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
   }
   .banner__content {
     width: 90%;

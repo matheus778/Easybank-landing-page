@@ -74,4 +74,8 @@
   .cards__item {
     align-items: center;
   }
+
+  .cards__item__text {
+    text-align: center;
+  }
 }
