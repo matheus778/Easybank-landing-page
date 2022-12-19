@@ -56,6 +56,12 @@
 @media(max-width: 1024px){
   .banner__container {
     width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
   }
   .banner__content {
     width: 90%;
@@ -73,12 +79,12 @@
   }
 
   .banner__images {
-    display: none;
+    display: block;
   }
   .banner__image-mockups {
-    width: 300px;
+    width: 400px;
     position: unset;
-    display: none;
+    display: block;
   }
 
   .banner__image-bg {
