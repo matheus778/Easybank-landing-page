@@ -86,3 +86,25 @@
     display: none;
   }
 }
+
+/* menu responsivo */
+
+.navbar__menu.show {
+  height: 300px;
+  gap: 3rem;
+  position: fixed;
+  top: 5vw;
+  left: 25vw;
+  right: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.4rem;
+  box-shadow: 0 50px 400px black;
+  background-color: var(--white);
+}
+
+.navbar__menu.show li a:hover::before {
+  bottom: -10px;
+}
